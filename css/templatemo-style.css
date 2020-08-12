@@ -231,6 +231,13 @@ section {
   padding: 25px 0;
 }
 
+.navbar-logo {
+  float: left;
+  vertical-align: middle;
+  margin-top: 9px;
+  margin-right: 10px;
+}
+
 .custom-navbar .navbar-brand {
   color: #ffffff;
   font-size: 25px;
@@ -240,16 +247,14 @@ section {
 
 .custom-navbar .navbar-logo {
   content: url("../images/favicon-32x32_white.png");
-  float: left;
-  vertical-align: middle;
-  margin-top: 9px;
-  margin-right: 10px;
 }
 
 .top-nav-collapse {
   background: #ffffff;
 }
-
+.top-nav-collapse .navbar-logo {
+  content: url("../images/favicon-32x32_blue.png");
+}
 .custom-navbar .navbar-nav.navbar-nav-first {
   margin-left: 8em;
 }
@@ -340,9 +345,6 @@ section {
 
   .top-nav-collapse .navbar-brand {
     color: #252525;
-  }
-  .top-nav-collapse .navbar-logo {
-    content: url("../images/favicon-32x32_blue.png");
   }
 
   .top-nav-collapse .nav li a {
@@ -459,11 +461,6 @@ section {
   position: relative;
   cursor: pointer;
   border-radius: 3px;
-}
-
-.work-thumb img {
-  width: 70%;
-  align-self: center;
 }
 
 .work-thumb .work-info {
