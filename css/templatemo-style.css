@@ -249,12 +249,14 @@ section {
   content: url("../images/favicon-32x32_white.png");
 }
 
-.top-nav-collapse {
-  background: #ffffff;
-}
 .top-nav-collapse .navbar-logo {
   content: url("../images/favicon-32x32_blue.png");
 }
+
+.top-nav-collapse {
+  background: #ffffff;
+}
+
 .custom-navbar .navbar-nav.navbar-nav-first {
   margin-left: 8em;
 }
@@ -344,11 +346,11 @@ section {
   }
 
   .top-nav-collapse .navbar-brand {
-    color: #252525;
+    color: #6448df;
   }
 
   .top-nav-collapse .nav li a {
-    color: #575757;
+    color: #6448df;
   }
 
   .top-nav-collapse .nav .section-btn a {
@@ -391,9 +393,9 @@ section {
 
 .home-info .section-btn:hover,
 .home-info .section-btn:focus {
-  background: #ce3232;
-  border-color: transparent;
-  color: #ffffff;
+  background: #ffffff;
+  color: #4a2db6;
+  border: 2px solid #e5e3eb;
 }
 
 .home-info span {
@@ -406,6 +408,8 @@ section {
 
 .home-info span small {
   display: block;
+  font-weight: 700;
+  padding-left: 43px;
 }
 
 /*---------------------------------------
@@ -451,9 +455,8 @@ section {
       WORK             
   -----------------------------------------*/
 
-.work-info img {
-  width: 100%;
-  border-radius: 100%;
+.work-thumb img {
+  width: 70%;
 }
 
 #work .work-thumb {
@@ -483,7 +486,7 @@ section {
   right: 0px;
   bottom: 0px;
   content: "";
-  background: #ce3232;
+  background: #4f32ce;
   opacity: 0;
   transition: 0.5s;
 }
@@ -603,18 +606,11 @@ section {
 }
 
 .blog-info .section-btn:hover {
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #ffffff;
+  background: #ffffff;
+  color: #0c265f;
+  border-color: #0c265f;
+  border: thin;
+  border-style: solid;
 }
 
 .blog-thumb ul {
@@ -675,21 +671,15 @@ section {
   -----------------------------------------*/
 
 #contact {
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e4dcdc;
+}
+
+#contact .line-bar {
+  color: #726b6b;
 }
 
 #contact .section-title h2 {
-  color: #ffffff;
+  color: #382929;
 }
 
 .google-map {
@@ -707,7 +697,8 @@ section {
 }
 
 #contact .form-control {
-  border: 0;
+  border: thin;
+  border-color: rgb(49, 47, 47);
   border-radius: 5px;
   box-shadow: none;
   color: rgba(20, 20, 20, 0.5);
@@ -715,6 +706,7 @@ section {
   font-weight: normal;
   margin-bottom: 15px;
   padding-left: 8px;
+  border-style: dashed;
 }
 
 #contact input,
@@ -727,7 +719,7 @@ section {
 }
 
 #contact input[type="submit"] {
-  background: #ce3232;
+  background: #614343;
   border-radius: 100px;
   color: #ffffff;
   font-weight: 500;
