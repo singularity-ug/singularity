@@ -250,7 +250,7 @@ section {
 }
 
 .top-nav-collapse .navbar-logo {
-  content: url("../images/favicon-32x32_blue.png");
+  content: url("../images/favicon-32x32_grey.png");
 }
 
 .top-nav-collapse {
@@ -346,11 +346,11 @@ section {
   }
 
   .top-nav-collapse .navbar-brand {
-    color: #6448df;
+    color: #09a09b;
   }
 
   .top-nav-collapse .nav li a {
-    color: #6448df;
+    color: #09a09b;
   }
 
   .top-nav-collapse .nav .section-btn a {
