@@ -235,7 +235,7 @@ section {
   float: left;
   vertical-align: middle;
   margin-top: 9px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .custom-navbar .navbar-brand {
@@ -1087,6 +1087,9 @@ footer span,
   .footer-info p,
   .footer-bottom .phone-contact {
     margin-right: 0;
+  }
+  .navbar-logo {
+    margin-left: 14px;
   }
 }
 
